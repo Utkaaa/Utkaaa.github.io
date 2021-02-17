@@ -4,10 +4,56 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #262730
     url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/noise-bg.png) repeat 0 0;
   font-family: "Montserrat", sans-serif;
+}
+
+.menu {
+  display: flex;
+  text-align: center;
+  width: 1200px;
+  height: 120px;
+  padding: 10px;
+  background: #333;
+  color: #ffffff;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+nav ul {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 330px;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.logo {
+  margin-left: 40px;
+  background: no-repeat;
+  height: 100px;
+  width: 100px;
+  text-align: left;
 }
 
 aside {
@@ -197,8 +243,9 @@ img {
 .footer {
   text-align: center;
   width: 1200px;
-  padding: 10px;
-  background: #000000;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: #333;
   color: #ffffff;
   margin: auto;
 }

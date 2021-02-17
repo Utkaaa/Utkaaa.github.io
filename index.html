@@ -12,10 +12,29 @@
     <title>My rezume</title>
 </head>
 <body>
+    <div class="menu">
+        <a href="./index.html"><img src="./img/logo.png" alt="logo" class="logo"></a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about"> About me </a>
+                </li>
+                <li>
+                    <a href="#projects">Projects </a>
+                </li>
+                <li>
+                    <a href="#experience"> Work experience </a>
+                </li>
+                <li>
+                    <a href="#education"> Education </a>
+                </li>
+            </ul>
 
+        </nav>
+    </div>
     <!-- main container -->
     <div class="container">
-
+    
         <aside>
             <img src="./img/photo.jpg" alt="My photo" >
             
@@ -79,6 +98,23 @@
                         <span class="list-text">GTD</span>
                     </li>
                     <li class="dote">
+                        <span class="list-text">Languages</span>
+                        <ul>
+                            <li class="dote">
+                                <span class="list-text">English</span>
+                            </li>
+                            <li class="dote">
+                                <span class="list-text">Ukrainian</span>
+                            </li>
+                            <li class="dote">
+                                <span class="list-text">Russia</span>
+                            </li>
+                            <li class="dote">
+                                <span class="list-text">Italiano</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dote">
                         <span class="list-text">Teamwork</span>
                     </li>
                 </ul>
@@ -87,11 +123,10 @@
 
         <!-- about container -->
         <div class="about-me">
-            
             <!-- about me main info container -->
             <div>
                 <h2 class="profession">Full-stack Developer</h2>
-                <h1 class="name">Vitaliy Piatnychuk</h1>
+                <h1 class="name" id="about">Vitaliy Piatnychuk</h1>
 
                 <p class="faq-info">Student of the College of Electronic Devices IFNTUNG. Was born on April 2, 2003 in the village of Lisny Khlibychyn,
                 Ivano-Frankivsk region, Kolomyia district.</p>
@@ -99,11 +134,11 @@
 
             <!-- projects container -->
             <div>
-                <h3 class="project">Projects</h3>
+                <h3 class="project" id="projects">Projects</h3>
 
                 <ol>
                     <li class="list-number">
-                        <a class="main-link" href="https://lovecamp.goit.ua/" target="_blank">https://lovecamp.goit.ua/</a>
+                        <a class="main-link" href="./lab2.html">Laboratory work 2</a>
                         <span>..........</span>
                         <span>[ HTML5, CSS3 ]</span>
                     </li>
@@ -123,7 +158,7 @@
             <!-- work experience container -->
             <div>
 
-                <h3 class="tag-main">Work experience</h3>
+                <h3 class="tag-main" id="experience">Work </h3>
 
                 <!-- company 1 -->
                 <div>
@@ -168,7 +203,7 @@
 
             <!-- Education container -->
             <div>
-                <h3 class="tag-main">Education</h3>
+                <h3 class="tag-main" id="education">Education</h3>
                 
                 
                 <div>
@@ -201,7 +236,7 @@
                 $('.scroll-top').click(function () {
                     $("html, body").animate({
                         scrollTop: 0
-                    }, 600);
+                    }, 0);
                     return false;
                 });
             </script>
