@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/lab.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="SHORTCUT ICON" href="./img/favicon.ico" type="image/x-icon">
     <title>Laboratory work 2</title>
 </head>
 
@@ -35,9 +37,86 @@
         </nav>
     </div>
     <!-- main container -->
-    <div class="container">
-        
+
+    <div class="container lab-container">
+        <div class="lab">
+            <div class="tag-lab-main">Laboratory work 2</div>
+            <h3 class="tag-lab">Numbered list</h3>
+            <ol>
+                <li>Beetroot</li>
+                <li>Ginger</li>
+                <li>Potato</li>
+                <li>Radish</li>
+             </ol>
+            <h3 class="tag-lab">Bulleted list</h3>
+            <ul >
+                <li>Beetroot</li>
+                <li>Ginger</li>
+                <li>Potato</li>
+                <li>Radish</li>
+             </ul>
+            <h3 class="tag-lab">Сompiled numbered list</h3>
+            <ol reversed>
+                <li>
+                    Beetroot
+                    <ol reversed>
+                    <li>Carrot</li>
+                    <li>Pineapple</li>
+                    <li>Bread</li>
+                </ol>
+                </li>
+                <li>Ginger</li>
+                <li>Potato</li>
+                <li>Radish</li>
+             </ol>
+            <h3 class="tag-lab">Definition list</h3>
+            <dl>
+                <dt><b>HTML</b></dt>
+                <dd>This stands for Hyper Text Markup Language</dd>
+                <dt><b>HTTP</b></dt>
+                <dd>This stands for Hyper Text Transfer Protocol</dd>
+             </dl>
+            <h3 class="tag-lab">Alphabetical list</h3>
+            <ol type="A">
+                <li>Beetroot</li>
+                <li>Ginger</li>
+                <li>Potato</li>
+                <li>Radish</li>
+             </ol>
+            <h3 class="tag-lab">Paragraph with HTML entities</h3>
+            <p> 
+                Don't be afraid to be &lt;then a 100% success & &gt;more
+            </p>
+            <q>It is not the critic who counts; 
+            not the man who points out how the strong man stumbles,
+                or where the doer of deeds could have done them better. 
+                The credit belongs to the man who is actually in the arena, 
+                whose face is marred by dust and sweat and blood; who strives valiantly; 
+                who errs, who comes short again and again, because there is no effort 
+                without error and shortcoming; but who does actually strive to do the deeds; 
+                who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; 
+                who at the best knows in the end the triumph of high achievement, and who at the worst, 
+                if he fails, at least fails while daring greatly, 
+                so that his place shall never be with those cold and timid souls who neither know victory nor defeat.
+            </q>
+            <p>
+                Theodor Roosevelt 1910 &copy; Copyright
+            </p>
+            <h3 class="tag-lab">The structure of the basic HTML document</h3>
+            <pre class="entities">
+&lt;!DOCTYPE html &gt;<br />
+    &lt;head&gt;<br />
+        &lt;meta charset= &quot;utf-8&quot; /&gt;<br />
+        &lt;title&gt;My rezume&lt;/title&gt;<br />
+    &lt;/head&gt;<br />
+    &lt;body&gt;<br />
+        &lt;h1&gt;Hello world&lt;/h1&gt;<br />
+    &lt;/body&gt;<br />
+    &lt;/html&gt;
+            </pre>
+        </div>
     </div>
+
     <div class="footer">
         <span>&copy; Vitaliy Piatnychuk</span>
         <ul class="social-icons">
